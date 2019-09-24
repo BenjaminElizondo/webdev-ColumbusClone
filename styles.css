@@ -1,13 +1,16 @@
 /* CSS code  */
 body{
-margin: 0px;
+    margin: 0px;
 }
 nav{
     background-color: #10243B;
     color: white;
     margin: 0px;
     padding: 0px;
-    font-size: 18px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -15,18 +18,21 @@ nav{
 ul{
     list-style-type: none;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
 }
 li{
     display: inline;
-    margin: 7px;
-    padding: 0px;
+    margin: 0px;
+    padding: 25px;
 }
 ul #navbarlist{
     display: inline;
 }
 ul :nth-child(7){
-    padding-right: 190px;
+    padding-right: 275px;
+}
+img{
+    vertical-align: middle;
 }
 #hero{ 
     background-image: url(images/graduation.jpg);
@@ -35,3 +41,32 @@ ul :nth-child(7){
     height: 100vh;
     width: 100vw;
 }
+#c_logo{
+    height: 152px;
+    width: 152px;
+    position: fixed;
+    top: 200px;
+    left: 20px;
+}
+#schoolname{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;   
+    color: #ffffff;
+    text-shadow: 0px 2px 3px #333333;
+    position: fixed;
+    left: 175px;
+    top: 225px;
+}
+#textunderschool{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;   
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(51, 51, 51) 0px 2px 3px;
+    position: fixed;
+    left: 175px;
+    top: 275px;
+    }
