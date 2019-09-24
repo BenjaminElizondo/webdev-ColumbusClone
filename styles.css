@@ -1,29 +1,26 @@
 /* CSS code  */
 body{
-
+margin: 0px;
 }
 nav{
     background-color: #10243B;
     color: white;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     font-size: 1.125em;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
 ul{
+    margin: 0px;
     list-style-type: none;
     padding: 20px;
 }
 li{
     display: inline;
-    margin: 7px;
+    margin: 10px;
     padding: 4px;
-}
-ul li: first-child{
-    margin-left: 15px;
-    padding-left: 0px;
 }
 ul #navbarlist{
     display: inline;
@@ -31,4 +28,11 @@ ul #navbarlist{
 #navbarlist li{
     margin: 10px;
     padding: 10px;
+}
+#hero{ 
+    background-image: url(images/graduation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
