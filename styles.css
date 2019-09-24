@@ -13,21 +13,20 @@ nav{
     font-weight: bold;
 }
 ul{
-    margin: 0px;
     list-style-type: none;
-    padding: 20px;
+    margin: 0px;
+    padding: 10px;
 }
 li{
     display: inline;
-    margin: 10px;
-    padding: 4px;
+    margin: 7px;
+    padding: 0px;
 }
 ul #navbarlist{
     display: inline;
 }
-#navbarlist li{
-    margin: 10px;
-    padding: 10px;
+ul :nth-child(7){
+    padding-right: 190px;
 }
 #hero{ 
     background-image: url(images/graduation.jpg);
