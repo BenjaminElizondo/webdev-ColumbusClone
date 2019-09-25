@@ -10,7 +10,7 @@ nav{
     position: fixed;
     left: 0;
     right: 0;
-    font-size: 20px;
+    font-size: 1.2em;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -23,13 +23,13 @@ ul{
 li{
     display: inline;
     margin: 0px;
-    padding: 25px;
+    padding: .2%;
 }
 ul #navbarlist{
     display: inline;
 }
 ul :nth-child(7){
-    padding-right: 275px;
+    padding-right: 5%;
 }
 img{
     vertical-align: middle;
@@ -49,7 +49,7 @@ img{
     left: 20px;
 }
 #schoolname{
-    font-size: 36px;
+    font-size: 2.250em;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;   
@@ -60,7 +60,7 @@ img{
     top: 225px;
 }
 #textunderschool{
-    font-size: 18px;
+    font-size: 1.125em;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-style: italic;   
@@ -70,3 +70,15 @@ img{
     left: 175px;
     top: 275px;
     }
+#boxshadow{
+    background-color: rgba(0,0,0);
+    background-image: linear-gradient(to bottom,
+    rgba(51,51,51,0.8) 0% rgba(51,51,51,0) 56%
+    rgba(51,51,51,0) 100%);
+    color: #ffffff;
+    padding-top: 95px;
+    min-height: 800px;
+    text-shadow: 0px 2px 3px #333333;
+    overflow: hidden;
+    margin-top: 0 !important;
+}
