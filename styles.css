@@ -1,4 +1,8 @@
 /* CSS code  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     margin: 0px;
 }
@@ -35,7 +39,7 @@ img{
     vertical-align: middle;
 }
 #hero{ 
-    background-image: url(images/graduation.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -70,18 +74,27 @@ img{
     left: 175px;
     top: 275px;
     }
-#boxshadow{
-    position: fixed;
-    background-color: rgba(0,0,0,.5);
-    background-image: linear-gradient(to bottom,
-    rgba(51,51,51,0.8) 0% rgba(51,51,51,.5) 50%
-    rgba(51,51,51,0) 100%);
-    color: #ffffff;
-    padding-top: 95px;
-    text-shadow: 0px 2px 3px #333333;
-    overflow: hidden;
-    margin-top: 45px !important;
-    width: 100%;
-    height: 100%;
-
+#explorecchs{
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+}
+#exploreheader{
+    width: 100vw;
+    height: 81px;
+    background-color: red;
+}
+#exploresection{
+    width: 100vw;
+    height: 319px;
+    background-color: blue;
+}
+.explorebox{
+    height: 315px;
+    width: 25%;
+    background-color: purple;
+    float: left;
+}
+#hurricane{
+    background-image: url(images/)
 }
