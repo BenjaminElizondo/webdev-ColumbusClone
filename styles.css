@@ -3,9 +3,6 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    margin: 0px;
-}
 nav{
     background-color: #10243B;
     color: white;
@@ -40,7 +37,7 @@ img{
     vertical-align: middle;
 }
 #hero{ 
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/fans.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -62,7 +59,7 @@ img{
     text-shadow: 0px 2px 3px #333333;
     position: relative;
     left: 175px;
-    top: 225px;
+    top: 90px;
 }
 #textunderschool{
     font-size: 1.125em;
@@ -73,7 +70,7 @@ img{
     text-shadow: rgb(51, 51, 51) 0px 2px 3px;
     position: relative;
     left: 175px;
-    top: 275px;
+    top: 95px;
     }
 #explorecchs{
     width: 100vw;
@@ -96,6 +93,23 @@ img{
     background-color: purple;
     float: left;
 }
-#hurricane{
-    background-image: url(images/)
+#college{
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: contain;
+}
+#ccnn{
+    background-image: url(images/ccnn.jpg);
+    background-position: center;
+    background-size: contain;
+}
+#ccnnlive{
+    background-image: url(images/ccnnlive.png);
+    background-position: center;
+    background-size: contain;
+}
+#patriots{
+    background-image: url(images/patriots%20plaza.jpg);
+    background-position: center;
+    background-size: contain;
 }
