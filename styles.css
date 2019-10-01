@@ -8,7 +8,6 @@ nav{
     color: white;
     margin: 0px;
     padding: 0px;
-    position: fixed;
     left: 0;
     right: 0;
     font-size: 1.2em;
@@ -125,9 +124,8 @@ img{
 }
 #glance{
     width: 100vw;
-    height: 400px;
+    height: 600px;
     text-align: center;
-    margin-top: 10px;
 }
 #glancetext{
     font-size: 3em;
@@ -135,10 +133,12 @@ img{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    padding-top: 20px;
 }
 #glanceheader{
     width: 100vw;
     background-color: white;
+    padding-top: 100px;
 }
 #glancesection{
     width: 100vw;
@@ -155,29 +155,25 @@ img{
     background-image: url(images/carosel%20money.jpg);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;   
 }
 #caroselgraduation{
     background-image: url(images/carosel%20graduation.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-  
 }
 #book{
     background-image: url(images/book.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-   
 }
 #caroselteaching{
     background-image: url(images/carosel%20teaching.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    
 }
 #h1carosel{
     color: rgb(195, 14, 14);
@@ -199,7 +195,6 @@ img{
     color: #ffffff;
     height: 150px;  
     margin: 0 auto;
-    margin-top: 100px;
 }
 #dualenrollmenttext{
     font-family: "Open Sans", sans-serif;
@@ -213,9 +208,11 @@ hr{
 }
 #explorecolleges{
     width: 100vw;
-    height: 340px;
+    height: 300px;
     text-align: center;
-    background-color: white
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg3.png);
+    border-top: 1px solid #dfd2b0;
+    border-bottom: 1px solid #dfd2b0;
 }
 #explorecollegestext{
     font-family: 'Open Sans', sans-serif;
@@ -269,13 +266,32 @@ hr{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#footer{
+#smallhero{
     width: 100vw;
+    height: 80px;
+    background-image: url(images/fans.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-ul #footernav{
-    display: inline;
+#footernav{
+    width: 100vw;
+    height: 50px;
+    color: lightblue;
+    background-color: #10243B;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
 }
-#contact{
-    padding-top: 20px;
-    padding-left: 160px;
+#footertext{
+    width: 100vw;
+    height: 300px;
+    padding-top: 30px;
+    background-color: #333333;
+    font-family: "Open Sans", sans-serif;
+}
+h4 #footertext{
+
 }
