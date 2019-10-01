@@ -19,12 +19,9 @@ nav{
 }
 ul{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
 }
 li{
     display: inline;
-    margin: 0px;
     padding: .2%;
 }
 ul #navbarlist{
@@ -77,39 +74,120 @@ img{
     height: 400px;
     text-align: center;
 }
+#explorecchstext{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
 #exploreheader{
     width: 100vw;
-    height: 81px;
     background-color: red;
+    margin-bottom: 5px;
 }
 #exploresection{
     width: 100vw;
     height: 319px;
     background-color: blue;
+    margin-bottom: 300px;
 }
 .explorebox{
     height: 315px;
     width: 25%;
-    background-color: purple;
+    background-color: white;
     float: left;
 }
 #college{
     background-image: url(images/college.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #ccnn{
     background-image: url(images/ccnn.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #ccnnlive{
-    background-image: url(images/ccnnlive.png);
+    background-image: url(images/ccnn%20live.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #patriots{
     background-image: url(images/patriots%20plaza.jpg);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#glance{
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+}
+#glancetext{
+    font-size: 3em;
+    color: #00344C;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#glanceheader{
+    width: 100vw;
+    background-color: white;
+}
+#glancesection{
+    width: 100vw;
+    height: 319px;
+    background-color: blue;
+}
+.glancebox{
+    height: 315px;
+    width: 25%;
+    background-color: white;
+    float: left;
+}
+#caroselmoney{
+    background-image: url(images/carosel%20money.jpg);
+    background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#caroselgraduation{
+    background-image: url(images/carosel%20graduation.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+}
+#book{
+    background-image: url(images/book.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+#caroselteaching{
+    background-image: url(images/carosel%20teaching.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#h1carosel{
+    color: rgb(195, 14, 14);
+    font-size: 35px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 245px;
+    text-align: center;
+}
+#h2carosel{
+    color: #727171;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 10px;
+    text-align: center;
 }
