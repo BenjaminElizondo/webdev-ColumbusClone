@@ -68,18 +68,19 @@ img{
     position: relative;
     left: 175px;
     top: 95px;
-    }
+}
 #explorecchs{
     width: 100vw;
-    height: 400px;
+    height: 300px;
     text-align: center;
+    background-color: #10243B;
 }
 #explorecchstext{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: bold;
-    margin-top: 10px;
+    color: white;
 }
 #exploreheader{
     width: 100vw;
@@ -126,6 +127,7 @@ img{
     width: 100vw;
     height: 400px;
     text-align: center;
+    margin-top: 10px;
 }
 #glancetext{
     font-size: 3em;
@@ -179,15 +181,101 @@ img{
 }
 #h1carosel{
     color: rgb(195, 14, 14);
-    font-size: 35px;
+    font-size: 1.875em;
     font-family: "Open Sans", sans-serif;
     padding-top: 245px;
     text-align: center;
 }
 #h2carosel{
     color: #727171;
-    font-size: 17px;
+    font-size: 1.125em;
     font-family: "Open Sans", sans-serif;
     padding-top: 10px;
     text-align: center;
+}
+#dualenrollment{
+    width: 60vw;
+    background-color: #10243B;
+    color: #ffffff;
+    height: 150px;  
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#dualenrollmenttext{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.25em;
+    padding-top: 50px;
+}
+hr{
+    color: #dfd2b0;
+}
+#explorecolleges{
+    width: 100vw;
+    height: 340px;
+    text-align: center;
+    background-color: white
+}
+#explorecollegestext{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #00344C;
+}
+#collegesheader{
+    width: 100vw;
+    margin-bottom: 5px;
+}
+#collegesection{
+    width: 100vw;
+    height: 319px;
+    background-color: white;
+    margin-bottom: 300px;
+}
+.collegebox{
+    height: 315px;
+    width: 20%;
+    float: left;
+}
+#mit{
+    background-image: url(images/mit.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#northcarolina{
+    background-image: url(images/northcarolina.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#um{
+    background-image: url(images/um.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#wakeforest{
+    background-image: url(images/wakeforest.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#yale{
+    background-image: url(images/yale.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#footer{
+    width: 100vw;
+}
+ul #footernav{
+    display: inline;
+}
+#contact{
+    padding-top: 20px;
+    padding-left: 160px;
 }
