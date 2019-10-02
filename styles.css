@@ -14,7 +14,6 @@ nav{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    z-index: 10;
 }
 ul{
     list-style-type: none;
@@ -208,7 +207,7 @@ hr{
 }
 #explorecolleges{
     width: 100vw;
-    height: 300px;
+    height: 400px;
     text-align: center;
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg3.png);
     border-top: 1px solid #dfd2b0;
@@ -281,9 +280,9 @@ hr{
     background-color: #10243B;
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
-    text-align: center;
     padding-top: 10px;
     font-weight: bold;
+    padding-left: 345px;
 }
 #footertext{
     width: 100vw;
@@ -291,7 +290,30 @@ hr{
     padding-top: 30px;
     background-color: #333333;
     font-family: "Open Sans", sans-serif;
+    font-size: .875em;
+    color: white;
 }
-h4 #footertext{
+#footertextbeauty{
+    font-style: italic;
+    display: inline-block;
+    color: #aaa;
+}
+.footertextalignment{
+    padding-left: 350px;
+}
+#sitemap{
+    padding-left: 700px;
+}
+#columbusseal{
+    position: relative;
+    top: -25px;
+    left: 615px;
+}
+#connectwithus{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
+#footercontent{
+    display: inline;
 }
