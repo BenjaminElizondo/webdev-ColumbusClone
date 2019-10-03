@@ -1,4 +1,5 @@
-/* CSS code  */
+/* BODY + NAV BAR  */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -28,9 +29,29 @@ ul #navbarlist{
 ul :nth-child(7){
     padding-right: 5%;
 }
+ul :nth-child(13){
+    background-color: #005983;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+#line{
+    border-left: 3px solid white;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+ul :nth-child(14){
+    background-color: #005983;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
 img{
     vertical-align: middle;
 }
+
+/* HERO SECTION  */
+
 #hero{ 
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/fans.jpg);
     background-repeat: no-repeat;
@@ -67,6 +88,9 @@ img{
     left: 175px;
     top: 95px;
 }
+
+/* EXPLORE SECTION  */
+
 #explorecchs{
     width: 100vw;
     height: 300px;
@@ -121,6 +145,9 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* GLANCE SECTION  */
+
 #glance{
     width: 100vw;
     height: 600px;
@@ -174,14 +201,14 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
 }
-#h1carosel{
+#h1glance{
     color: rgb(195, 14, 14);
     font-size: 1.875em;
     font-family: "Open Sans", sans-serif;
     padding-top: 245px;
     text-align: center;
 }
-#h2carosel{
+#h2glance{
     color: #727171;
     font-size: 1.125em;
     font-family: "Open Sans", sans-serif;
@@ -205,6 +232,9 @@ img{
 hr{
     color: #dfd2b0;
 }
+
+/* COLLEGE SECTION  */
+
 #explorecolleges{
     width: 100vw;
     height: 400px;
@@ -265,6 +295,9 @@ hr{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* FOOTER SECTION  */
+
 #smallhero{
     width: 100vw;
     height: 80px;
@@ -313,7 +346,6 @@ hr{
     padding-left: 100px;
     padding-right: 100px;
 }
-
 #footercontent{
     display: inline;
 }
